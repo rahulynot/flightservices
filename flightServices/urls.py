@@ -23,4 +23,8 @@ router.register("flights", views.FlightViewSet)
 router.register("passengers", views.PassengerViewSet)
 router.register("reservations", views.ReservationViewSet)
 
-urlpatterns = [path("admin/", admin.site.urls), path("flightServices/", include(router.urls))]
+urlpatterns = [
+    path("admin/", admin.site.urls),
+    path("flightServices/", include(router.urls)),
+    path("flightServices/findFlights/", views.findFlights),
+]
