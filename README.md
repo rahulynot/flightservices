@@ -7,3 +7,4 @@ A Django based REST API framework for a flight reservation service
 #### [GET, POST, HEAD, OPTIONS]: flightServices/reservations/
 
 #### [POST, OPTIONS]: flightServices/findFlights/
+#### [POST, OPTIONS]: flightServices/makeReservations/
